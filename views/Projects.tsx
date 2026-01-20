@@ -80,21 +80,21 @@ const projects: Project[] = [
     ],
     color: 'from-green-500 to-teal-500'
   },
-  {
-    id: 5,
-    title: 'Employee Dashboard',
-    description: 'Internal HRM dashboard for employee management',
-    longDescription: 'Developed an Internal Employee Dashboard for tracking login/logout, managing employee data, and HRM features. Streamlined employee management processes with intuitive UI and real-time updates.',
-    tags: ['Node.js', 'Express', 'MongoDB', 'React', 'Redis'],
-    icon: '👥',
-    demoLink: '#',
-    codeLink: 'https://github.com/Sanjaykumarbhupathi',
-    stats: [
-      { label: 'Features', value: 'HRM' },
-      { label: 'Users', value: 'Enterprise' }
-    ],
-    color: 'from-purple-500 to-pink-500'
-  },
+  // {
+  //   id: 5,
+  //   title: 'Employee Dashboard',
+  //   description: 'Internal HRM dashboard for employee management',
+  //   longDescription: 'Developed an Internal Employee Dashboard for tracking login/logout, managing employee data, and HRM features. Streamlined employee management processes with intuitive UI and real-time updates.',
+  //   tags: ['Node.js', 'Express', 'MongoDB', 'React', 'Redis'],
+  //   icon: '👥',
+  //   demoLink: '#',
+  //   codeLink: 'https://github.com/Sanjaykumarbhupathi',
+  //   stats: [
+  //     { label: 'Features', value: 'HRM' },
+  //     { label: 'Users', value: 'Enterprise' }
+  //   ],
+  //   color: 'from-purple-500 to-pink-500'
+  // },
 ];
 
 export default function Projects() {
