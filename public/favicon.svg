@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="192" height="192" fill="#ffffff" rx="40"/>
+  
+  <!-- Gradient Circle -->
+  <circle cx="96" cy="96" r="80" fill="url(#grad1)" filter="url(#shadow)"/>
+  
+  <!-- Letter S -->
+  <text x="96" y="130" font-family="Arial, sans-serif" font-size="110" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">S</text>
+  
+  <!-- Subtle accent lines -->
+  <circle cx="96" cy="96" r="80" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.1"/>
+</svg>
